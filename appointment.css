@@ -1,0 +1,46 @@
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #333; 
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2f4380;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(99, 93, 93, 0.1);
+}
+
+
+label, input, select {
+    display: block;
+    margin: 10px 0;
+}
+
+
+button[type="submit"] {
+    background-color: #007BFF; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+
+input[type="text"]#inputAddress2 {
+    margin-bottom: 20px; 
+}
