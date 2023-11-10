@@ -1,0 +1,14 @@
+body {
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a shadow (you can adjust the values) */
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
